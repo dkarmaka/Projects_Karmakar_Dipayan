@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EXP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="CHT">CONNECT TO HOME</string>
+    <string name="ENTER">ENTER</string>
+    <string name="DISCONNECT">DISCONNECT</string>
+    <string name="shta">SET HAS TO AUTOMATION</string>
+    <string name="CM">CONTROL MANUALLY</string>
+    <string name="TC">TANK CONTROL</string>
+    <string name="gs">GET SNAP</string>
+    <string name="OPEN">OPEN</string>
+    <string name="CLOSE">CLOSE</string>
+    <string name="SS">SAVE SNAP</string>
+    <string name="START">START</string>
+    <string name="STOP">STOP</string>
+    <string name="SFUT">SET FILL-UP TIME</string>
+    <string name="AUTOMATED">AUTOMATED</string>
+    <string name="room">ROOM</string>
+    <string name="HALL">HALL</string>
+    <string name="WASHROOM">WASHROOM</string>
+    <string name="KITCHEN">KITCHEN</string>
+    <string name="SR">STORE ROOM</string>
+    <string name="APPLIANCE">APPLIANCE</string>
+    <string name="so">SCHEDULE ON</string>
+    <string name="SOO">SCHEDULE OFF</string>
+    <string name="SW">SET WATT POWER</string>
+    <string name="scs">SMS CONTROL SETTINGS</string>
+    <string name="PO">POWER OFF</string>
+    <string name="privacy">PRIVACY</string>
+    <string name="PP">PRIVACY CONTROLS</string>
+    <string name="EC">ENERGY CONSUMED: 0</string>
+    <string name="SN">SAVE NUMBER</string>
+    <string name="RESET">RESET METER</string>
+    <string name="smsdecs">In SMS Control System, you can power off all the appliances of your house from anywhere in the world just by sending the SMS given below to the HAS controller device. For this the controller device must be in reach of the HAS.</string>
+
+</resources>

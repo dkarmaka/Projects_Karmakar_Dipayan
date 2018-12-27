@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/editTextS1"
+        android:layout_width="362dp"
+        android:layout_height="60dp"
+        android:layout_x="45dp"
+        android:layout_y="272dp"
+        android:ems="10"
+        android:hint="PHONE NUMBER"
+        android:imeActionLabel="Save Number"
+        android:imeOptions="actionDone"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonS1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_x="483dp"
+        android:layout_y="271dp"
+        android:text="@string/SN" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="48dp"
+        android:layout_y="222dp"
+        android:ems="10"
+        android:text="HAS ALLOFF" />
+
+    <Switch
+        android:id="@+id/switchS1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="449dp"
+        android:layout_y="32dp"
+        android:text="SMS CONTROL" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="516dp"
+        android:layout_height="155dp"
+        android:layout_x="49dp"
+        android:layout_y="69dp"
+        android:text="@string/smsdecs"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</AbsoluteLayout>

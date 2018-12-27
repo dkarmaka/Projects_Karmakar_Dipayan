@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="Deprecated" 
+    android:layout_marginRight="10dip"
+    android:layout_marginEnd="10dip">
+
+    <Button
+        android:id="@+id/ButtonE5"
+        android:layout_width="222dp"
+        android:layout_height="99dp"
+        android:layout_x="20dp"
+        android:layout_y="15dp"
+        android:text="@string/SR"
+        android:textSize="@dimen/abc_dialog_padding_material" />
+
+    <Button
+        android:id="@+id/buttonE3"
+        android:layout_width="262dp"
+        android:layout_height="94dp"
+        android:layout_x="243dp"
+        android:layout_y="18dp"
+        android:text="@string/KITCHEN"
+        android:textSize="@dimen/abc_action_bar_progress_bar_size" />
+
+    <Button
+        android:id="@+id/buttonE4"
+        android:layout_width="435dp"
+        android:layout_height="173dp"
+        android:layout_x="21dp"
+        android:layout_y="111dp"
+        android:text="@string/HALL"
+        android:textSize="@dimen/abc_action_bar_progress_bar_size" />
+
+    <Button
+        android:id="@+id/buttonE2"
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:layout_x="504dp"
+        android:layout_y="21dp"
+        android:text="@string/WASHROOM"
+        android:textSize="@dimen/abc_dialog_padding_top_material" />
+
+    <Button
+        android:id="@+id/buttonE1"
+        android:layout_width="170dp"
+        android:layout_height="161dp"
+        android:layout_x="459dp"
+        android:layout_y="117dp"
+        android:text="@string/room"
+        android:textSize="@dimen/abc_action_bar_progress_bar_size" />
+
+</AbsoluteLayout>

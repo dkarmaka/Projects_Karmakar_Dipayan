@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dips.exp.MainActivity"
+    android:layout_marginRight="10dip"
+    android:layout_marginTop="10dip"
+    android:layout_marginBottom="2dip"
+    android:layout_marginEnd="10dip" >
+
+    <Button
+        android:id="@+id/buttonA2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonA1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:drawableLeft="@drawable/home"
+        android:enabled="false"
+        android:text="@string/ENTER"
+        android:textSize="@dimen/abc_dialog_padding_material" />
+
+    <Button
+        android:id="@+id/buttonA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/CHT"
+        android:textSize="@dimen/abc_action_bar_progress_bar_size" />
+
+    <Button
+        android:id="@+id/ButtonA3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonA2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:enabled="false"
+        android:text="@string/DISCONNECT"
+        android:textSize="@dimen/abc_dialog_padding_material" />
+
+    <Button
+        android:id="@+id/buttonA4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ButtonA3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:drawableLeft="@drawable/sms"
+        android:enabled="false"
+        android:text="@string/scs"
+        android:textSize="@dimen/abc_dialog_padding_material" />
+
+</RelativeLayout>

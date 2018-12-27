@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="Deprecated" >
+
+    <Button
+        android:id="@+id/buttonG4"
+        android:layout_width="190dp"
+        android:layout_height="69dp"
+        android:layout_x="31dp"
+        android:layout_y="20dp"
+        android:text="@string/AUTOMATED"
+        android:textSize="@dimen/abc_dialog_padding_material" />
+
+    <EditText
+        android:id="@+id/editTextG1"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="110dp"
+        android:ems="10"
+        android:hint="Time in Minutes"
+        android:imeActionLabel="Schedule ON"
+        android:imeOptions="actionDone"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/ButtonG3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="498dp"
+        android:layout_y="234dp"
+        android:text="@string/SW" />
+
+    <Button
+        android:id="@+id/ButtonG2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="500dp"
+        android:layout_y="175dp"
+        android:text="@string/SOO" />
+
+    <Button
+        android:id="@+id/ButtonG1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="502dp"
+        android:layout_y="111dp"
+        android:text="@string/so" />
+
+    <EditText
+        android:id="@+id/editTextG3"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_x="34dp"
+        android:layout_y="237dp"
+        android:ems="10"
+        android:hint="Watts"
+        android:imeActionLabel="Set Watt Power"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditTextG2"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_x="34dp"
+        android:layout_y="175dp"
+        android:ems="10"
+        android:hint="Time in Minutes"
+        android:imeActionLabel="Schedule OFF"
+        android:imeOptions="actionDone"
+        android:inputType="number" />
+
+</AbsoluteLayout>

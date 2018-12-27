@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="RtlHardcoded" 
+    android:layout_marginRight="10dip"
+    android:layout_marginEnd="10dip">
+
+    <Button
+        android:id="@+id/ButtonB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/PO"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/buttonB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/TC"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textViewB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/EC"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/buttonB5"
+        android:layout_width="250dip"
+        android:layout_height="50dip"
+        android:layout_alignLeft="@+id/buttonB3"
+        android:layout_below="@+id/ButtonB4"
+        android:layout_marginTop="21dp"
+        android:text="@string/scs"
+        android:textSize="@dimen/abc_dialog_padding_top_material" />
+
+    <Button
+        android:id="@+id/ButtonB4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/CM"
+        android:textSize="@dimen/abc_dialog_padding_top_material" />
+
+    <Button
+        android:id="@+id/buttonB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ButtonB4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:text="@string/shta"
+        android:textSize="@dimen/abc_dialog_padding_top_material" />
+
+    <Button
+        android:id="@+id/buttonB6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewB1"
+        android:layout_alignParentRight="true"
+        android:text="@string/RESET" />
+
+</RelativeLayout>
